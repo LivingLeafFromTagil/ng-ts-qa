@@ -1,0 +1,5 @@
+<div *ngFor="let qa of qaData">
+  <p>{{ qa.question }}</p>
+  <app-answer [qa]="qa"></app-answer>
+  <ng-content></ng-content>
+</div>
